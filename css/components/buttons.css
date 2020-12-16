@@ -1,0 +1,36 @@
+.btn-primary {
+  display: inline-block;
+  background-color: #248232;
+  padding: 16px 36px;
+  border-radius: 50px;
+  color: white;
+  margin: 24px;
+  border: 1px solid rgb(100,100,100);
+}
+
+.btn-primary:hover {
+  background-color: #26A96C;
+}
+
+.btn-secondary {
+  border: 2px solid #248232;
+  background-color: white;
+  padding: 8px 16px;
+  border-radius: 50px;
+  color: #248232;
+  position: absolute;
+  bottom: 10px;
+  left: 50px;
+  right: 50px;
+}
+
+.btn-secondary:hover {
+  border: 2px solid #26A96C;
+  color: #26A96C;
+}
+
+.btn-container{
+  display: flex;
+  align-items: space-between;
+  justify-content: center;
+}

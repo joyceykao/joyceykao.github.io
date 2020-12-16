@@ -1,0 +1,19 @@
+.footer {
+  text-align: center;
+  padding: 60px;
+  background-color: #2c2b2b;
+}
+
+.footer a {
+  font-size: 30px;
+  color:  #248232;
+}
+
+.footer a:hover {
+  color: #26A96C;
+}
+
+.footer p {
+  color: #6B6C6C;
+  margin: 20px;
+}
