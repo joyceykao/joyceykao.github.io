@@ -1,12 +1,12 @@
 .cards {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 30px;
+  justify-content: center;
+  margin: 30px 30px auto;
 }
 
 .card {
-  width: 300px;
-  margin: 16px;
+/*  width: 300px;*/
+  margin: 16px  auto;
   height: 350px;
   border-radius: 3px;
   box-shadow: 0 0 5px rgb(230,230,230);
@@ -23,3 +23,4 @@
 .card i {
   font-size: 50px;
 }
+

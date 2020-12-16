@@ -1,5 +1,5 @@
 .banner {
-  background-size: cover !important;
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: bottom;
   padding: 100px 0;
@@ -17,3 +17,9 @@
   font-size: 40px;
   text-shadow: 2px 2px rgb(20,20,20);
 }
+/*
+@media screen and (max-width: 600px){
+  .banner{
+    background-size: 100px;
+  }
+}*/
