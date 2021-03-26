@@ -1,19 +1,16 @@
-.cards {
+/*.cards {
   display: flex;
   justify-content: center;
   margin: 30px 30px auto;
 }
-
+*/
 .card {
-/*  width: 300px;*/
-  margin: 16px  auto;
   height: 350px;
   border-radius: 3px;
   box-shadow: 0 0 5px rgb(230,230,230);
-  justify-content: center;
   text-align: center;
   border: 1px solid rgb(230,230,230);
-  position: relative;
+  padding: 16px;
 }
 
 .card p {

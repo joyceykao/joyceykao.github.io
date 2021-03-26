@@ -18,10 +18,7 @@
   padding: 8px 16px;
   border-radius: 50px;
   color: #248232;
-  position: absolute;
   bottom: 10px;
-  left: 50px;
-  right: 50px;
 }
 
 .btn-secondary:hover {
@@ -29,8 +26,8 @@
   color: #26A96C;
 }
 
-.btn-container{
+/*.btn-container{
   display: flex;
   align-items: space-between;
   justify-content: center;
-}
+}*/
