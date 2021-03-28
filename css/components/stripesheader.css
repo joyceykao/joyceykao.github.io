@@ -1,0 +1,60 @@
+/*.navbar {
+  position: relative;
+  width: 100%;
+}*/
+
+#stripes {
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(150deg, #612940 15%, #9D6381 70%, #FDECEF 94%);
+  position: absolute;
+  transform: skewY(-1.5deg);
+  transform-origin: 0;
+}
+
+#stripes span {
+  height: 70px;
+  position: absolute;
+}
+
+#stripes :nth-child(1) {
+  width: 50%;
+  left: 50%;
+  top: 30%;
+  background: #0F110C;
+}
+
+#stripes :nth-child(2) {
+  width: 50%;
+  left: 0%;
+  top: calc(30% - 70px);
+  background: #0F110C;
+}
+
+#stripes :nth-child(3) {
+  width: 14%;
+  right: 0%;
+  bottom: calc(0% + 70px);
+  background: #CECCCC;
+}
+
+#stripes :nth-child(4) {
+  width: 24%;
+  right: 0%;
+  bottom: 0%;
+  background: #FDECEF;
+}
+
+
+#intro {
+  height: 100%;
+  width: 100%;
+  font-color: white;
+  position: relative;
+  color: white;
+  padding: 30px;
+}
+
+/*#main {
+  margin: 0 5%;
+}*/

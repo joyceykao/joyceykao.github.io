@@ -1,11 +1,19 @@
 .footer {
   text-align: center;
-  padding: 60px;
   background-color: #2c2b2b;
+  height: 70px;
+  padding: 0px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  bottom:0;
+  left:0;
+  width: 100%
 }
 
 .footer a {
-  font-size: 30px;
+  font-size: 20px;
   color:  #248232;
 }
 
@@ -15,5 +23,10 @@
 
 .footer p {
   color: #6B6C6C;
-  margin: 20px;
+  margin: 8px;
+  font-size: 12px;
+}
+
+#photographyfoot {
+  background-color: #612940 !important;
 }

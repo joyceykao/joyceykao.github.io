@@ -8,9 +8,11 @@
 @import url('components/footer.css');
 @import url('components/cards.css');
 @import url('components/banner.css');
+@import url('components/stripesheader.css');
+
 /* Utilities */
 body {
-  margin: 0;
+  margin-bottom: 100px;
   font-family: Open Sans;
 }
 
@@ -20,6 +22,10 @@ h1, h2, h3, h4 {
 
 a {
   text-decoration: none;
+}
+
+.wrapper{
+  min-height: 100%;
 }
 
 #logo {
